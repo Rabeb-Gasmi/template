@@ -52,6 +52,15 @@ section nav .logo{
     position: relative;
     left: -4%;
 }
+section nav .logo img{
+    width: 100px;
+    height: 30px;
+    font-size: 35px;
+    margin: 5px 0;
+    cursor: pointer;
+    position: relative;
+    left: -4%;
+}
 
 section nav .logo span{
     color: #6c14d0;
@@ -804,3 +813,40 @@ footer .footer_main .tag .search_bar button{
     color: white;
     cursor: pointer;
 }
+
+
+.main_image img {
+    animation: shoes ease 12s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    animation-fill-mode: forwards;
+    }
+    @keyframes shoes {
+    0%{
+        transform: translate(0px,0px);
+    }
+    9%{
+        transform: translate(79px,-22px);
+    }
+    26%{
+        transform: translate(-4px,-5px);
+    }
+    33%{
+        transform: translate(80px,18px);
+    }
+    48%{
+        transform: translate(-17px,-13px);
+    }
+    56%{
+        transform: translate(57px,-45px);
+    }
+    71%{
+        transform: translate(-11px,-12px);
+    }
+    82%{
+        transform: translate(72px,7px);
+    }
+    00%{
+        transform: translate(0px,0px);
+    }
+    }
